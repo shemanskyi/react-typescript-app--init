@@ -1,0 +1,26 @@
+{
+	"overrides": [
+		{
+			"files": ["**/*.scss"],
+			"customSyntax": "postcss-scss"
+		}
+	],
+	"extends": [
+		"stylelint-config-standard",
+		"stylelint-config-rational-order",
+		"stylelint-prettier/recommended",
+		"stylelint-config-prettier"
+	],
+	"plugins": ["stylelint-order", "stylelint-scss", "stylelint-prettier"],
+	"ignoreFiles": ["**/*.js"],
+	"rules": {
+		"prettier/prettier": true,
+		"at-rule-no-unknown": null,
+		"max-nesting-depth": 4,
+		"scss/at-rule-no-unknown": true,
+		"scss/dollar-variable-pattern": null,
+		"scss/selector-no-redundant-nesting-selector": true,
+		"order/order": ["custom-properties", "declarations"],
+		"order/properties-order": ["width", "height"]
+	}
+}

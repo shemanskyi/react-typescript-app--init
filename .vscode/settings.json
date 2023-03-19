@@ -1,0 +1,17 @@
+{
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"prettier.stylelintIntegration": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnPaste": false,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"eslint.validate": ["javascript"],
+	"css.validate": false,
+	"less.validate": false,
+	"scss.validate": false,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.fixAll.stylelint": true
+	}
+}
